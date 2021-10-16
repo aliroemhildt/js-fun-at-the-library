@@ -66,7 +66,7 @@ describe("book.js", function () {
       assert.deepEqual(reviews, ["An astounding success"]);
     });
 
-    it.skip("should be able to add reviews to an array that already contains reviews", function() {
+    it("should be able to add reviews to an array that already contains reviews", function() {
       var reviews = ["You won't be able to put it down"];
 
       saveReview("A page turner!", reviews);
