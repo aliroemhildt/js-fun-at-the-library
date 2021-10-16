@@ -4,9 +4,13 @@ function shelfBook(book, shelf) {
   };
 };
 
+function unshelfBook() {
+
+};
+
 module.exports = {
   shelfBook,
-  // unshelfBook,
+  unshelfBook,
   // listTitles,
   // searchShelf
 };

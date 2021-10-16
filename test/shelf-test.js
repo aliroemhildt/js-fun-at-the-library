@@ -104,7 +104,7 @@ describe("shelf.js", function() {
   });
 
   describe("unshelfBook", function() {
-    it.skip("should be a function", function() {
+    it("should be a function", function() {
       assert.isFunction(unshelfBook);
     });
 
