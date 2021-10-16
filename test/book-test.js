@@ -76,7 +76,7 @@ describe("book.js", function () {
       assert.deepEqual(reviews, ["You won't be able to put it down", "A page turner!", "An instant classic!"]);
     });
 
-    it.skip("should only add unique reviews", function() {
+    it("should only add unique reviews", function() {
       var reviews = [];
 
       saveReview("I want everyone to read this book!", reviews);

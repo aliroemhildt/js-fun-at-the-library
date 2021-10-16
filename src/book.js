@@ -12,7 +12,15 @@ function buildMainCharacter(name, age, pronouns) {
 };
 
 function saveReview(review, reviewsArray) {
-  reviewsArray.push(review);
+  alreadyInArray = false;
+  for (i = 0; i < reviewsArray.length; i++) {
+    if (review === reviewsArray[i]) {
+      alreadyInArray = true;
+    }
+  }
+  if (alreadyInArray === false) {
+    reviewsArray.push(review);
+  }
 };
 
 module.exports = {
