@@ -23,8 +23,10 @@ function saveReview(review, reviewsArray) {
   }
 };
 
-function calculatePageCount() {
-
+function calculatePageCount(title) {
+  var letters = title.length;
+  pages = letters * 20;
+  return pages;
 };
 
 module.exports = {
