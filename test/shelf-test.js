@@ -35,7 +35,7 @@ describe("shelf.js", function() {
       assert.equal(sciFiShelf[1], hyperion);
     });
 
-    it.skip("should add another book to the shelf", function() {
+    it("should add another book to the shelf", function() {
       var hyperion = {
         title: "Hyperion",
         mainCharacter: { name: "The Shrike", age: null, pronouns: "they" },
