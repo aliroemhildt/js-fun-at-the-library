@@ -11,8 +11,8 @@ function buildMainCharacter(name, age, pronouns) {
   return character;
 };
 
-function saveReview() {
-
+function saveReview(review, reviewsArray) {
+  reviewsArray.push(review);
 };
 
 module.exports = {

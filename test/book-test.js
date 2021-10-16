@@ -57,7 +57,7 @@ describe("book.js", function () {
       assert.isFunction(saveReview);
     });
 
-    it.skip("should be able to add reviews to an array", function() {
+    it("should be able to add reviews to an array", function() {
       var reviews = [];
 
       saveReview("An astounding success", reviews);
