@@ -53,7 +53,7 @@ describe("book.js", function () {
   });
 
   describe("saveReview", function() {
-    it.skip("should be a function (comment the function back into the module.exports object in book.js)", function () {
+    it("should be a function (comment the function back into the module.exports object in book.js)", function () {
       assert.isFunction(saveReview);
     });
 
