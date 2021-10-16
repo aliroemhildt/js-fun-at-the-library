@@ -113,7 +113,7 @@ describe("book.js", function () {
       assert.isFunction(writeBook);
     });
 
-    it.skip("should return a book object", function () {
+    it("should return a book object", function () {
       var bookTitle = createTitle("Teenage Ghoul");
       var bookCharacter = buildMainCharacter("Vassya", 16, "she/her");
       var book = writeBook(bookTitle, bookCharacter, "fantasy");

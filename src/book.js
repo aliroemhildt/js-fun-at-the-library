@@ -29,8 +29,14 @@ function calculatePageCount(title) {
   return pages;
 };
 
-function writeBook() {
-
+function writeBook(bookTitle, bookCharacter, genre) {
+  var book = {
+    title: bookTitle,
+    mainCharacter: bookCharacter,
+    pageCount: calculatePageCount(bookTitle),
+    genre: genre
+  };
+  return book;
 };
 
 module.exports = {
