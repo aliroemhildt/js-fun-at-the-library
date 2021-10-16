@@ -34,7 +34,7 @@ describe("book.js", function () {
   });
 
   describe("buildMainCharacter", function() {
-    it.skip("should be a function (comment the function back into the module.exports object in book.js)", function () {
+    it("should be a function (comment the function back into the module.exports object in book.js)", function () {
       assert.isFunction(buildMainCharacter);
     });
 
