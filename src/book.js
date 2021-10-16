@@ -39,11 +39,15 @@ function writeBook(bookTitle, bookCharacter, genre) {
   return book;
 };
 
+function editBook() {
+
+};
+
 module.exports = {
   createTitle,
   buildMainCharacter,
   saveReview,
   calculatePageCount,
   writeBook,
-  // editBook
+  editBook
 }
