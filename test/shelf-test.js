@@ -13,7 +13,7 @@ describe("shelf.js", function() {
       assert.isFunction(shelfBook);
     });
 
-    it.skip("should add books to a specific shelf", function() {
+    it("should add books to a specific shelf", function() {
       var hyperion = {
         title: "Hyperion",
         mainCharacter: { name: "The Shrike", age: null, pronouns: "they" },

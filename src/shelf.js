@@ -1,5 +1,5 @@
-function shelfBook() {
-
+function shelfBook(book, shelf) {
+  shelf.unshift(book);
 };
 
 module.exports = {
