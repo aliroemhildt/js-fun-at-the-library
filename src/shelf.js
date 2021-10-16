@@ -16,8 +16,16 @@ function unshelfBook(bookName, shelfName) {
   };
 };
 
-function listTitles() {
-
+function listTitles(shelfName) {
+  titleList = "";
+  for (i = 0; i < shelfName.length; i++) {
+  if (titleList === "") {
+    titleList += shelfName[i].title;
+  } else {
+    titleList += ", " + shelfName[i].title;
+  };
+  };
+  return titleList;
 };
 
 module.exports = {
