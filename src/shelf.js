@@ -16,9 +16,13 @@ function unshelfBook(bookName, shelfName) {
   };
 };
 
+function listTitles() {
+
+};
+
 module.exports = {
   shelfBook,
   unshelfBook,
-  // listTitles,
+  listTitles,
   // searchShelf
 };
