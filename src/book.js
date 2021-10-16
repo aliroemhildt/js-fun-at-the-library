@@ -2,9 +2,14 @@ function createTitle(title) {
   return `The ${title}`;
 };
 
-function buildMainCharacter() {
-
-}
+function buildMainCharacter(name, age, pronouns) {
+  var character = {
+    name: name,
+    age: age,
+    pronouns: pronouns
+  }
+  return character;
+};
 
 
 module.exports = {
