@@ -18,7 +18,7 @@ describe("library.js", function() {
     assert.equal(denverLibrary.name, "Denver Public Library");
     });
 
-    it.skip("should be able to have a different name", function() {
+    it("should be able to have a different name", function() {
       var goldenLibrary = createLibrary("Golden Public Library");
 
       assert.equal(goldenLibrary.name, "Golden Public Library");
