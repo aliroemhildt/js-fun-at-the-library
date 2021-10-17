@@ -30,7 +30,7 @@ describe("library.js", function() {
       assert.isObject(denverLibrary.shelves);
     });
 
-    it.skip("should have several different types of shelves", function() {
+    it("should have several different types of shelves", function() {
       var denverLibrary = createLibrary("Denver Public Library");
 
       assert.deepEqual(denverLibrary.shelves.fantasy, []);

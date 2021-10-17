@@ -2,7 +2,9 @@ function createLibrary(libraryName) {
   var library = {
     name: libraryName,
     shelves: {
-      fantasy: []
+      fantasy: [],
+      fiction: [],
+      nonFiction: []
     },
   };
   return library;
