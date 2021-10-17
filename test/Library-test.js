@@ -12,7 +12,7 @@ describe("library.js", function() {
       assert.isFunction(createLibrary);
     });
 
-    it.skip("should have a name", function() {
+    it("should have a name", function() {
       var denverLibrary = createLibrary("Denver Public Library");
 
     assert.equal(denverLibrary.name, "Denver Public Library");
